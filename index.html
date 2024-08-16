@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table using html</title>
+    <style>
+        table{
+            width: 100%
+        }
+        table, tr, td, th{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        
+    </style>
+</head>
+<body>
+    <p><b>Question 2 (5marks):</b> Make the following table with (only) HTML (use a border of 2px):</p>
+    <table>
+        <tr>
+            <td colspan="3"><i>Invoice #<u>1234</u></i></td>
+            <td><i>Some Data</i></td>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="3">Buyer's Name: <br>
+                First and Last Name <br>
+            </td>
+            <td rowspan="3"> Address: <br>
+                Somewhere in <br> 
+                Brandon
+            </td>
+            <td>Zip Code</td>
+        </tr>
+        <tr> <td>Phone Number</td></tr>
+        <tr> <td>Email</td></tr>
+        <tr>
+            <td><b>Item Name</b></td>
+            <td><b>Cost</b></td>
+            <td><b>Quantity</b></td>
+            <td><b>Total Cost</b></td>
+        </tr>
+        <tr>
+            <td>Item 1</td>
+            <td>10</td>
+            <td>10</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Item 2</td>
+            <td>5</td>
+            <td>5</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Subtotal</b></td>
+            <td>15</td>
+            <td><b>125</b></td>
+        </tr>
+
+    </table>
+
+    
+</body>
+</html>
